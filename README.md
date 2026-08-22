@@ -23,12 +23,6 @@ One-click SQLite to MySQL migration tool for Rebecca Panel.
 - Current database must be SQLite
 - Root access
 
-Default Rebecca paths:
 
-```text
-/opt/rebecca/.env
-/var/lib/rebecca/db.sqlite3
-
- One-line installation
 curl -fsSL https://raw.githubusercontent.com/mansourganjipoor/Rebecca-Tools/main/rebecca-sqlite-to-mysql.sh | bash
 
