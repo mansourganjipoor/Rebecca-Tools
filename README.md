@@ -214,22 +214,6 @@ chmod +x /root/rebecca-sqlite-to-mysql.sh
 PURGE_EXISTING_MYSQL=YES /root/rebecca-sqlite-to-mysql.sh
 ```
 
-برای سرورهای Production، این روش پیشنهاد می‌شود؛ چون قبل از اجرا می‌توانید محتوای اسکریپت را بررسی کنید.
-
----
-
-## 🌐 استفاده از Mirror دلخواه Ubuntu
-
-اگر سرور شما در دسترسی به Repository اصلی Ubuntu مشکل دارد، می‌توانید یک Mirror دیگر معرفی کنید.
-
-مثال:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/mansourganjipoor/Rebecca-Tools/main/rebecca-sqlite-to-mysql.sh \
-| env PURGE_EXISTING_MYSQL=YES \
-APT_MIRROR=https://repo.iut.ac.ir/ubuntu \
-bash
-```
 
 ---
 
