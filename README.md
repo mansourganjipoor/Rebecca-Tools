@@ -79,8 +79,6 @@ chmod +x /root/rebecca-sqlite-to-mysql.sh
 PURGE_EXISTING_MYSQL=YES /root/rebecca-sqlite-to-mysql.sh
 ```
 
-This method is recommended for production servers because you can review the script before execution.
-
 ---
 
 ## 🌐 Optional: Custom Ubuntu Mirror
