@@ -153,6 +153,15 @@ Before starting, make sure your server meets the following requirements:
 > The automatic installation command below is allowed to back up and remove an existing MySQL/MariaDB installation before installing a clean MySQL instance.
 
 ---
+## ⚠️ Important Warning
+
+Do not run the migration command on a server that is already using MySQL unless you understand the consequences.
+
+The option:
+
+```text
+PURGE_EXISTING_MYSQL=YES
+```
 
 ## 🚀 Automatic Installation
 
@@ -252,15 +261,6 @@ Keep this directory until you are completely sure the migration was successful.
 
 ---
 
-## ⚠️ Important Warning
-
-Do not run the migration command on a server that is already using MySQL unless you understand the consequences.
-
-The option:
-
-```text
-PURGE_EXISTING_MYSQL=YES
-```
 
 explicitly allows the script to back up and remove the existing MySQL/MariaDB installation before preparing a clean database environment.
 
