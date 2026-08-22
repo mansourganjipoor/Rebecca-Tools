@@ -24,5 +24,5 @@ One-click SQLite to MySQL migration tool for Rebecca Panel.
 - Root access
 
 
-curl -fsSL https://raw.githubusercontent.com/mansourganjipoor/Rebecca-Tools/main/rebecca-sqlite-to-mysql.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mansourganjipoor/Rebecca-Tools/main/rebecca-sqlite-to-mysql.sh | PURGE_EXISTING_MYSQL=YES bash
 
