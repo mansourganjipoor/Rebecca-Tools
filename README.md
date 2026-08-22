@@ -138,10 +138,6 @@ Host: 127.0.0.1
 Database: rebecca
 User: rebecca
 ```
-
-SQLite قبلی و بکاپ‌های ایجادشده برای Rollback و بازیابی اطلاعات نگهداری می‌شوند.
-
----
 ## 🇬🇧 English
 
 ### Requirements
